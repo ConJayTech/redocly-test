@@ -6,7 +6,7 @@ To gain access to IQM's API and its services, first the user must sign up and lo
 
 Sign up for an account by providing an email address and desired password with the following endpoint:
 
-<span class="badge-post"> POST </span> /api/v3/ua/sign-up
+<span class="badge-post"> POST </span> <span class="code-text">/api/v3/ua/sign-up </span>
 
 
 ---
@@ -72,7 +72,7 @@ Sign up for an account by providing an email address and desired password with t
 
 Once a user has created an account, they can perform the login. This API will send OAuth compliant response with OW Id which can be used for any further API communications. Use the following endpoint:
 
-<span class="badge-post"> POST </span> /api/v3/ua/login
+<span class="badge-post"> POST </span> <span class="code-text">/api/v3/ua/login </span>
 
 ## Header Parameters
 
