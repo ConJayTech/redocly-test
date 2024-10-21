@@ -74,8 +74,6 @@ Once a user has created an account, they can perform the login. This API will se
 
 <span class="badge-post"> POST </span> <span class="code-text">/api/v3/ua/login </span>
 
-<span class="badge"> POST </span>
-
 ---
 
 #### Header Parameters
