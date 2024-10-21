@@ -11,7 +11,7 @@ Sign up for an account by providing an email address and desired password with t
 
 ---
 
-## Header Parameters
+#### Header Parameters
 
 {% json-schema
   schema={
@@ -26,7 +26,7 @@ Sign up for an account by providing an email address and desired password with t
   }
 /%}
 
-## Body 
+#### Body 
 
 {% json-schema
   schema={
@@ -74,7 +74,11 @@ Once a user has created an account, they can perform the login. This API will se
 
 <span class="badge-post"> POST </span> <span class="code-text">/api/v3/ua/login </span>
 
-## Header Parameters
+<span class="badge"> POST </span>
+
+---
+
+#### Header Parameters
 
 {% json-schema
   schema={
@@ -93,7 +97,7 @@ Once a user has created an account, they can perform the login. This API will se
   }
 /%}
 
-## Body
+#### Body
 
 {% json-schema
   schema={
